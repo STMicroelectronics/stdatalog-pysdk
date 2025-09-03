@@ -42,6 +42,26 @@ It is formerly known as **HSDPython_SDK**, previously distributed in **FP-SNS-DA
 # Update History
 
 ::: {.collapse}
+<input type="checkbox" id="collapse-section4" checked aria-hidden="true">
+<label for="collapse-section4" aria-hidden="true">v1.2.1 / 29-Aug-25</label>
+<div>
+
+
+## Main Changes
+
+### Patch Release
+
+- Solved issue #6: accepted proposal from @YumTaha
+- Solved issues and accepted pull requests in stdatalog_example and stdatalog_gui
+- Fixed to_parquet and h5 converters
+- Added stdatalog_API_examples_SerialLink.py example in stdatalog_examples\function_tests
+- Refer to each package Release_Notes for the detailed changelog
+
+
+</div>
+:::
+
+::: {.collapse}
 <input type="checkbox" id="collapse-section3" checked aria-hidden="true">
 <label for="collapse-section3" aria-hidden="true">v1.2.0 / 20-Jun-25</label>
 <div>
