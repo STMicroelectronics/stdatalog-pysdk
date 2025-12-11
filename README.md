@@ -187,21 +187,31 @@ python3 gui_applications/stdatalog/GUI/stdatalog_GUI.py
 
 ## Supported Devices and Boards
 
-- All devices and boards supported by FP-SNS-DATALOG1, FP-SNS-DATALOG2 and FP-IND-DATALOGMC
-- [STEVAL-STWINBX1](https://www.st.com/stwinbox)
-- [STEVAL-STWINKT1B](https://www.st.com/stwin)
+- All devices and boards supported by FP-SNS-DATALOG1, FP-SNS-DATALOG2, FP-IND-DATALOGMC and STSW-SDATALOG
+
+- [B-U585I-IOT02A](https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html)
+- [STEVAL-AFCI1](https://www.st.com/en/evaluation-tools/steval-afci1.html)
 - [STEVAL-MKBOXPRO](https://www.st.com/sensortileboxpro)
+- [STEVAL-NBIOTV1](https://www.st.com/en/evaluation-tools/steval-nbiotv1.html)
+- [STEVAL-STWINKT1B](https://www.st.com/stwin)
+
+- [STEVAL-STWINBX1](https://www.st.com/stwinbox)
 - [STEVAL-PDETECT1](https://www.st.com/en/evaluation-tools/steval-pdetect1.html)
 - [STEVAL-C34KAT1](https://www.st.com/en/evaluation-tools/steval-c34kat1.html)
 - [STEVAL-C34KAT2](https://www.st.com/en/evaluation-tools/steval-c34kat2.html)
 - [STEVAL-C34KPM1](https://www.st.com/en/evaluation-tools/steval-c34kpm1.html)
-- [STEVAL-AFCI1](https://www.st.com/en/evaluation-tools/steval-afci1.html)
-- [B-U585I-IOT02A](https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html)
-- [X-NUCLEO-IKS02A1](https://www.st.com/en/ecosystems/x-nucleo-iks02a1.html) with [NUCLEO-U575ZI-Q](https://www.st.com/en/evaluation-tools/nucleo-u575zi-q.html)
-- [X-NUCLEO-IKS4A1](https://www.st.com/en/ecosystems/x-nucleo-iks4a1.html) with [NUCLEO-U575ZI-Q](https://www.st.com/en/evaluation-tools/nucleo-u575zi-q.html)
-- [X-NUCLEO-IKS02A1](https://www.st.com/en/ecosystems/x-nucleo-iks02a1.html) with [NUCLEO-H7A3ZI-Q](https://www.st.com/en/evaluation-tools/nucleo-h7a3zi-q.html)
-- [X-NUCLEO-IKS4A1](https://www.st.com/en/ecosystems/x-nucleo-iks4a1.html) with [NUCLEO-H7A3ZI-Q](https://www.st.com/en/evaluation-tools/nucleo-h7a3zi-q.html)
 - [EVLSPIN32G4-ACT](https://www.st.com/en/evaluation-tools/evlspin32g4-act.html)
+
+- [NUCLEO-F401RE](https://www.st.com/en/evaluation-tools/nucleo-f401re.html)
+- [NUCLEO-H7A3ZI-Q](https://www.st.com/en/evaluation-tools/nucleo-h7a3zi-q.html)
+- [NUCLEO-L476RG](https://www.st.com/en/evaluation-tools/nucleo-l476rg.html)
+- [NUCLEO-U545RE-Q](https://www.st.com/en/evaluation-tools/nucleo-u545re-q.html)
+- [NUCLEO-U575ZI-Q](https://www.st.com/en/evaluation-tools/nucleo-u575zi-q.html)
+
+- [X-NUCLEO-IKS02A1](https://www.st.com/en/ecosystems/x-nucleo-iks02a1.html)
+- [X-NUCLEO-IKS4A1](https://www.st.com/en/evaluation-tools/x-nucleo-iks4a1.html)
+- [X-NUCLEO-IKS5A1](https://www.st.com/en/evaluation-tools/x-nucleo-iks5a1.html)
+
 
 ## Backward Compatibility
 

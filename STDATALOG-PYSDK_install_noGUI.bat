@@ -13,18 +13,18 @@ ECHO installing stdatalog_pnpl...
 ECHO ===========================================
 python -c "import pkg_resources; pkg_resources.require('stdatalog_pnpl')" 2>nul
 if %errorlevel%==0 (
-ECHO Version to be installed: 1.2.1
+ECHO Version to be installed: 1.3.0
 python -m pip uninstall stdatalog_pnpl -y
 )
-if "%proxy_string%"=="" (python -m pip install stdatalog_pnpl\dist\stdatalog_pnpl-1.2.1-py3-none-any.whl) else (python -m pip install stdatalog_pnpl\dist\stdatalog_pnpl-1.2.1-py3-none-any.whl --proxy %proxy_string%) 
+if "%proxy_string%"=="" (python -m pip install stdatalog_pnpl\dist\stdatalog_pnpl-1.3.0-py3-none-any.whl) else (python -m pip install stdatalog_pnpl\dist\stdatalog_pnpl-1.3.0-py3-none-any.whl --proxy %proxy_string%) 
 :: Section 2: stdatalog_core
 ECHO ===========================================
 ECHO installing stdatalog_core...
 ECHO ===========================================
 python -c "import pkg_resources; pkg_resources.require('stdatalog_core')" 2>nul
 if %errorlevel%==0 (
-ECHO Version to be installed: 1.2.1
+ECHO Version to be installed: 1.3.0
 python -m pip uninstall stdatalog_core -y
 )
-if "%proxy_string%"=="" (python -m pip install stdatalog_core\dist\stdatalog_core-1.2.1-py3-none-any.whl) else (python -m pip install stdatalog_core\dist\stdatalog_core-1.2.1-py3-none-any.whl --proxy %proxy_string%) 
+if "%proxy_string%"=="" (python -m pip install stdatalog_core\dist\stdatalog_core-1.3.0-py3-none-any.whl) else (python -m pip install stdatalog_core\dist\stdatalog_core-1.3.0-py3-none-any.whl --proxy %proxy_string%) 
 PAUSE
