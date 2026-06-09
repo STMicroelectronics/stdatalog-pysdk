@@ -177,8 +177,7 @@ python3 gui_applications/stdatalog/GUI/stdatalog_GUI.py
 
 ## Known Limitations
 
-- macOS support has been introduced in v1.1.0. Previous versions are not compatible.
-- Python 3.13 is not officially supported.
+- None
 
 ## Development Toolchains and Compilers
 
@@ -187,7 +186,7 @@ python3 gui_applications/stdatalog/GUI/stdatalog_GUI.py
 
 ## Supported Devices and Boards
 
-- All devices and boards supported by FP-SNS-DATALOG1, FP-SNS-DATALOG2, FP-IND-DATALOGMC and STSW-SDATALOG
+All devices and boards supported by FP-SNS-DATALOG1, [FP-SNS-DATALOG2](https://github.com/STMicroelectronics/fp-sns-datalog2), [FP-IND-DATALOGMC](https://github.com/STMicroelectronics/fp-ind-datalogmc) and [STSW-SDATALOG](https://www.st.com/en/embedded-software/stsw-sdatalog.html):
 
 - [B-U585I-IOT02A](https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html)
 - [STEVAL-AFCI1](https://www.st.com/en/evaluation-tools/steval-afci1.html)
@@ -203,6 +202,7 @@ python3 gui_applications/stdatalog/GUI/stdatalog_GUI.py
 - [EVLSPIN32G4-ACT](https://www.st.com/en/evaluation-tools/evlspin32g4-act.html)
 
 - [NUCLEO-F401RE](https://www.st.com/en/evaluation-tools/nucleo-f401re.html)
+- [NUCLEO-H563ZI](https://www.st.com/en/evaluation-tools/nucleo-h563zi.html)
 - [NUCLEO-H7A3ZI-Q](https://www.st.com/en/evaluation-tools/nucleo-h7a3zi-q.html)
 - [NUCLEO-L476RG](https://www.st.com/en/evaluation-tools/nucleo-l476rg.html)
 - [NUCLEO-U545RE-Q](https://www.st.com/en/evaluation-tools/nucleo-u545re-q.html)
