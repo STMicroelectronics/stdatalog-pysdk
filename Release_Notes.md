@@ -42,14 +42,37 @@ It is formerly known as **HSDPython_SDK**, previously distributed in **FP-SNS-DA
 # Update History
 
 ::: {.collapse}
-<input type="checkbox" id="collapse-section5" checked aria-hidden="true">
+<input type="checkbox" id="collapse-section6" checked aria-hidden="true">
+<label for="collapse-section6" aria-hidden="true">v1.4.0 / 15-May-26</label>
+<div>
+
+
+## Main Changes
+
+### Maintenance Release
+
+- Added support for uploading JSON configuration files for MLC and ISPU sensors. UCF is still maintained to ensure retrocompatibility
+- Refactored modules and packages for improved documentation, code clarity, error handling, consistent formatting and style across modules
+- Refactored SSTL implementation and improved data loss detection over ASPEP
+- Refactored sensor streaming example
+- Refactored plotting widgets, Motor Control Widgets and fixed exception error when closing main window
+- Aligned to latest catalog version
+- Bug fixing and code cleaning
+- Refer to each package Release_Notes for the detailed changelog
+
+
+</div>
+:::
+
+::: {.collapse}
+<input type="checkbox" id="collapse-section5" aria-hidden="true">
 <label for="collapse-section5" aria-hidden="true">v1.3.0 / 14-Nov-25</label>
 <div>
 
 
 ## Main Changes
 
-### Maintenance Release and Product Update
+### Maintenance Release
 
 - **Full support to Serial Datalog, adding compatibility with STSW-SDATALOG firmware examples**
 - **Added support to CubeAI and NanoEdgeAI based examples for FP-IND-DATALOGMC**
