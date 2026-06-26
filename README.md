@@ -9,7 +9,7 @@ actuators.
 
 This software development kit is designed with an open and modular architecture,
 making it an excellent resource for data scientists and embedded designers.
-**STDATALOG-PYSDK** has been developed in **Python 3.13**, but it is also compatible with Python 3.12, 3.11 and 3.10.
+**STDATALOG-PYSDK** has been developed in **Python 3.13**, but it is also compatible with Python 3.12, 3.11.
 
 It provides a range of tools and utilities designed to simplify the development of
 applications that use data from ST system solutions.
@@ -58,7 +58,7 @@ git clone --recursive  --depth 1 --branch vX.Y.Z https://github.com/STMicroelect
 ## How to install STDATALOG-PYSDK 
 
 The STDATALOG-PYSDK provides installer scripts that can be used to properly install the SDK and all the required dependencies.
-STDATALOG-PYSDK has been developed in Python 3.13, but it is compatible also with Python 3.12, 3.11 and 3.10.
+STDATALOG-PYSDK has been developed in Python 3.13, but it is compatible also with Python 3.12, 3.11.
 To properly use it, Python must be already installed on the machine before proceeding with the following procedure.
 
 It is recommended to use a clean virtual environment for configuration. Navigate to the STDATALOG-PYSDK root directory, open a 
@@ -182,7 +182,7 @@ python3 gui_applications/stdatalog/GUI/stdatalog_GUI.py
 ## Development Toolchains and Compilers
 
 - Compatible with Windows, Linux and macOS machines
-- Python 3.13, 3.12, 3.11, 3.10
+- Python 3.13, 3.12, 3.11
 
 ## Supported Devices and Boards
 
