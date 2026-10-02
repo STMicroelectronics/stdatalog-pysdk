@@ -34,58 +34,58 @@ fi
 echo "==================================================="
 echo "Installing stdatalog_pnpl..."
 echo "==================================================="
-python3 -c "import pkg_resources; pkg_resources.require('stdatalog_pnpl')" 2>/dev/null
+python3 -c "from importlib.metadata import version; version('stdatalog_pnpl')" 2>/dev/null
 if [ $? -eq 0 ]; then
-    echo "Version to be installed: 1.4.0"
+    echo "Version to be installed: 1.5.0"
     python3 -m pip uninstall stdatalog_pnpl -y
 fi
 if [ -z $1 ]; then
-    python3 -m pip install stdatalog_pnpl/dist/stdatalog_pnpl-1.4.0-py3-none-any.whl
+    python3 -m pip install stdatalog_pnpl/dist/stdatalog_pnpl-1.5.0-py3-none-any.whl
 else
-    python3 -m pip install stdatalog_pnpl/dist/stdatalog_pnpl-1.4.0-py3-none-any.whl --proxy=$1
+    python3 -m pip install stdatalog_pnpl/dist/stdatalog_pnpl-1.5.0-py3-none-any.whl --proxy=$1
 fi
 
 # Section 2: stdatalog_core
 echo "==================================================="
 echo "Installing stdatalog_core..."
 echo "==================================================="
-python3 -c "import pkg_resources; pkg_resources.require('stdatalog_core')" 2>/dev/null
+python3 -c "from importlib.metadata import version; version('stdatalog_core')" 2>/dev/null
 if [ $? -eq 0 ]; then
-    echo "Version to be installed: 1.4.0"
+    echo "Version to be installed: 1.5.0"
     python3 -m pip uninstall stdatalog_core -y
 fi
 if [ -z $1 ]; then
-    python3 -m pip install stdatalog_core/dist/stdatalog_core-1.4.0-py3-none-any.whl
+    python3 -m pip install stdatalog_core/dist/stdatalog_core-1.5.0-py3-none-any.whl
 else
-    python3 -m pip install stdatalog_core/dist/stdatalog_core-1.4.0-py3-none-any.whl --proxy=$1
+    python3 -m pip install stdatalog_core/dist/stdatalog_core-1.5.0-py3-none-any.whl --proxy=$1
 fi
 
 # Section 3: stdatalog_dtk
 echo "==================================================="
 echo "Installing stdatalog_dtk..."
 echo "==================================================="
-python3 -c "import pkg_resources; pkg_resources.require('stdatalog_dtk')" 2>/dev/null
+python3 -c "from importlib.metadata import version; version('stdatalog_dtk')" 2>/dev/null
 if [ $? -eq 0 ]; then
-    echo "Version to be installed: 1.4.0"
+    echo "Version to be installed: 1.5.0"
     python3 -m pip uninstall stdatalog_dtk -y
 fi
 if [ -z $1 ]; then
-    python3 -m pip install stdatalog_dtk/dist/stdatalog_dtk-1.4.0-py3-none-any.whl
+    python3 -m pip install stdatalog_dtk/dist/stdatalog_dtk-1.5.0-py3-none-any.whl
 else
-    python3 -m pip install stdatalog_dtk/dist/stdatalog_dtk-1.4.0-py3-none-any.whl --proxy=$1
+    python3 -m pip install stdatalog_dtk/dist/stdatalog_dtk-1.5.0-py3-none-any.whl --proxy=$1
 fi
 
 # Section 4: stdatalog_gui
 echo "==================================================="
 echo "Installing stdatalog_gui..."
 echo "==================================================="
-python3 -c "import pkg_resources; pkg_resources.require('stdatalog_gui')" 2>/dev/null
+python3 -c "from importlib.metadata import version; version('stdatalog_gui')" 2>/dev/null
 if [ $? -eq 0 ]; then
-    echo "Version to be installed: 1.4.0"
+    echo "Version to be installed: 1.5.0"
     python3 -m pip uninstall stdatalog_gui -y
 fi
 if [ -z $1 ]; then
-    python3 -m pip install stdatalog_gui/dist/stdatalog_gui-1.4.0-py3-none-any.whl
+    python3 -m pip install stdatalog_gui/dist/stdatalog_gui-1.5.0-py3-none-any.whl
 else
-    python3 -m pip install stdatalog_gui/dist/stdatalog_gui-1.4.0-py3-none-any.whl --proxy=$1
+    python3 -m pip install stdatalog_gui/dist/stdatalog_gui-1.5.0-py3-none-any.whl --proxy=$1
 fi

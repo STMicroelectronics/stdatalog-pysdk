@@ -24,7 +24,7 @@ actuators.
 
 This software development kit is designed with an open and modular architecture,
 making it an excellent resource for data scientists and embedded designers.
-**STDATALOG-PYSDK** has been developed in **Python 3.13**, but it is compatible also with Python 3.12, 3.11.
+**STDATALOG-PYSDK** has been developed in **Python 3.13**, but it is compatible also with Python 3.14, 3.12 and 3.11.
 
 It provides a range of tools and utilities designed to simplify the development of
 applications that use data from ST system solutions.
@@ -34,7 +34,7 @@ datasets. These datasets are compatible with mainstream data science toolchains,
 promoting reusability across multiple projects. Additionally, the scripts can be easily
 integrated into any data science design workflow.
 
-It is formerly known as **HSDPython_SDK**, previously distributed in **FP-SNS-DATALOG1**, **FP-SNS-DATALOG2**, and **FP-IND-DATALOGMC** function packs
+It is formerly known as **HSDPython_SDK**, previously distributed in **STSW-SDATALOG**, **FP-SNS-DATALOG2**, and **FP-IND-DATALOGMC** function packs
 
 :::
 
@@ -42,7 +42,30 @@ It is formerly known as **HSDPython_SDK**, previously distributed in **FP-SNS-DA
 # Update History
 
 ::: {.collapse}
-<input type="checkbox" id="collapse-section6" checked aria-hidden="true">
+<input type="checkbox" id="collapse-section7" checked aria-hidden="true">
+<label for="collapse-section7" aria-hidden="true">v1.5.0 / 18-Sep-26</label>
+<div>
+
+
+## Main Changes
+
+### Maintenance Release
+
+- Updated ToF widgets, offline converters and plots to fully support VL53L9CX and generic output_format structure
+- Replaced pkg_resources (deprecated) with importlib.resources for resource management
+- Updated Motor Controll widgets and refactored HSD_Controller
+- Aligned to latest catalog version
+- Bug fixing and code cleaning
+- Added support to Python 3.14
+- Updated requirements with more recent versions of packages dependencies
+- Refer to each package Release_Notes for the detailed changelog
+
+
+</div>
+:::
+
+::: {.collapse}
+<input type="checkbox" id="collapse-section6" aria-hidden="true">
 <label for="collapse-section6" aria-hidden="true">v1.4.0 / 15-May-26</label>
 <div>
 

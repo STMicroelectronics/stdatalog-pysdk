@@ -27,18 +27,35 @@
 </center>
 <h1 id="purpose">Purpose</h1>
 <p>The <strong><a href="https://github.com/STMicroelectronics/stdatalog-pysdk">STDATALOG_PYSDK</a></strong> is a comprehensive Python framework designed to facilitate the capture, processing, and visualization of data from a wide range of sources, including sensors, algorithms, simulated signals, and telemetries from actuators.</p>
-<p>This software development kit is designed with an open and modular architecture, making it an excellent resource for data scientists and embedded designers. <strong>STDATALOG-PYSDK</strong> has been developed in <strong>Python 3.13</strong>, but it is compatible also with Python 3.12, 3.11.</p>
+<p>This software development kit is designed with an open and modular architecture, making it an excellent resource for data scientists and embedded designers. <strong>STDATALOG-PYSDK</strong> has been developed in <strong>Python 3.13</strong>, but it is compatible also with Python 3.14, 3.12 and 3.11.</p>
 <p>It provides a range of tools and utilities designed to simplify the development of applications that use data from ST system solutions.</p>
 <p>It includes Python scripts to create, elaborate, and organize data into structured datasets. These datasets are compatible with mainstream data science toolchains, promoting reusability across multiple projects. Additionally, the scripts can be easily integrated into any data science design workflow.</p>
-<p>It is formerly known as <strong>HSDPython_SDK</strong>, previously distributed in <strong>FP-SNS-DATALOG1</strong>, <strong>FP-SNS-DATALOG2</strong>, and <strong>FP-IND-DATALOGMC</strong> function packs</p>
+<p>It is formerly known as <strong>HSDPython_SDK</strong>, previously distributed in <strong>STSW-SDATALOG</strong>, <strong>FP-SNS-DATALOG2</strong>, and <strong>FP-IND-DATALOGMC</strong> function packs</p>
 </div>
 <div class="col-sm-12 col-lg-8">
 <h1 id="update-history">Update History</h1>
 <div class="collapse">
-<input type="checkbox" id="collapse-section6" checked aria-hidden="true"> <label for="collapse-section6" aria-hidden="true">v1.4.0 / 15-May-26</label>
+<input type="checkbox" id="collapse-section7" checked aria-hidden="true"> <label for="collapse-section7" aria-hidden="true">v1.5.0 / 18-Sep-26</label>
 <div>
 <h2 id="main-changes">Main Changes</h2>
 <h3 id="maintenance-release">Maintenance Release</h3>
+<ul>
+<li>Updated ToF widgets, offline converters and plots to fully support VL53L9CX and generic output_format structure</li>
+<li>Replaced pkg_resources (deprecated) with importlib.resources for resource management</li>
+<li>Updated Motor Controll widgets and refactored HSD_Controller</li>
+<li>Aligned to latest catalog version</li>
+<li>Bug fixing and code cleaning</li>
+<li>Added support to Python 3.14</li>
+<li>Updated requirements with more recent versions of packages dependencies</li>
+<li>Refer to each package Release_Notes for the detailed changelog</li>
+</ul>
+</div>
+</div>
+<div class="collapse">
+<input type="checkbox" id="collapse-section6" aria-hidden="true"> <label for="collapse-section6" aria-hidden="true">v1.4.0 / 15-May-26</label>
+<div>
+<h2 id="main-changes-1">Main Changes</h2>
+<h3 id="maintenance-release-1">Maintenance Release</h3>
 <ul>
 <li>Added support for uploading JSON configuration files for MLC and ISPU sensors. UCF is still maintained to ensure retrocompatibility</li>
 <li>Refactored modules and packages for improved documentation, code clarity, error handling, consistent formatting and style across modules</li>
@@ -54,8 +71,8 @@
 <div class="collapse">
 <input type="checkbox" id="collapse-section5" aria-hidden="true"> <label for="collapse-section5" aria-hidden="true">v1.3.0 / 14-Nov-25</label>
 <div>
-<h2 id="main-changes-1">Main Changes</h2>
-<h3 id="maintenance-release-1">Maintenance Release</h3>
+<h2 id="main-changes-2">Main Changes</h2>
+<h3 id="maintenance-release-2">Maintenance Release</h3>
 <ul>
 <li><strong>Full support to Serial Datalog, adding compatibility with STSW-SDATALOG firmware examples</strong></li>
 <li><strong>Added support to CubeAI and NanoEdgeAI based examples for FP-IND-DATALOGMC</strong></li>
@@ -68,7 +85,7 @@
 <div class="collapse">
 <input type="checkbox" id="collapse-section4" aria-hidden="true"> <label for="collapse-section4" aria-hidden="true">v1.2.1 / 29-Aug-25</label>
 <div>
-<h2 id="main-changes-2">Main Changes</h2>
+<h2 id="main-changes-3">Main Changes</h2>
 <h3 id="patch-release">Patch Release</h3>
 <ul>
 <li>Solved issue #6: accepted proposal from <span class="citation" data-cites="YumTaha">@YumTaha</span></li>
@@ -82,8 +99,8 @@
 <div class="collapse">
 <input type="checkbox" id="collapse-section3" aria-hidden="true"> <label for="collapse-section3" aria-hidden="true">v1.2.0 / 20-Jun-25</label>
 <div>
-<h2 id="main-changes-3">Main Changes</h2>
-<h3 id="maintenance-release-2">Maintenance Release</h3>
+<h2 id="main-changes-4">Main Changes</h2>
+<h3 id="maintenance-release-3">Maintenance Release</h3>
 <ul>
 <li>Added support to Python 3.13</li>
 <li>Redesigned USB catalog management: local catalog automatically synched with the online catalog</li>
@@ -99,8 +116,8 @@
 <div class="collapse">
 <input type="checkbox" id="collapse-section2" aria-hidden="true"> <label for="collapse-section2" aria-hidden="true">v1.1.0 / 9-Apr-25</label>
 <div>
-<h2 id="main-changes-4">Main Changes</h2>
-<h3 id="maintenance-release-3">Maintenance Release</h3>
+<h2 id="main-changes-5">Main Changes</h2>
+<h3 id="maintenance-release-4">Maintenance Release</h3>
 <ul>
 <li><strong>Added macos support.</strong></li>
 <li>stdatalog_core:
@@ -127,7 +144,7 @@
 <div class="collapse">
 <input type="checkbox" id="collapse-section1" aria-hidden="true"> <label for="collapse-section1" aria-hidden="true">v1.0.0 / 17-Jan-25</label>
 <div>
-<h2 id="main-changes-5">Main Changes</h2>
+<h2 id="main-changes-6">Main Changes</h2>
 <h3 id="first-official-release">First official release</h3>
 <h2 id="backward-compatibility">Backward Compatibility</h2>
 <ul>

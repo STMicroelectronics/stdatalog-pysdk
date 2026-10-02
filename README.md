@@ -9,7 +9,7 @@ actuators.
 
 This software development kit is designed with an open and modular architecture,
 making it an excellent resource for data scientists and embedded designers.
-**STDATALOG-PYSDK** has been developed in **Python 3.13**, but it is also compatible with Python 3.12, 3.11.
+**STDATALOG-PYSDK** has been developed in **Python 3.13**, but it is also compatible with Python 3.14, 3.12 and 3.11.
 
 It provides a range of tools and utilities designed to simplify the development of
 applications that use data from ST system solutions.
@@ -19,7 +19,7 @@ datasets. These datasets are compatible with mainstream data science toolchains,
 promoting reusability across multiple projects. Additionally, the scripts can be easily
 integrated into any data science design workflow.
 
-It was formerly known as **HSDPython_SDK**, previously distributed in **FP-SNS-DATALOG1**, **FP-SNS-DATALOG2**, and **FP-IND-DATALOGMC** function packs.
+It was formerly known as **HSDPython_SDK**, previously distributed in **STSW-SDATALOG**, **FP-SNS-DATALOG2**, and **FP-IND-DATALOGMC** function packs.
 
 ![](_htmresc/STDATALOG-PYSDK_Software_Architecture.svg)
 
@@ -58,7 +58,7 @@ git clone --recursive  --depth 1 --branch vX.Y.Z https://github.com/STMicroelect
 ## How to install STDATALOG-PYSDK 
 
 The STDATALOG-PYSDK provides installer scripts that can be used to properly install the SDK and all the required dependencies.
-STDATALOG-PYSDK has been developed in Python 3.13, but it is compatible also with Python 3.12, 3.11.
+STDATALOG-PYSDK has been developed in Python 3.13, but it is compatible also with Python 3.14, 3.12 and 3.11.
 To properly use it, Python must be already installed on the machine before proceeding with the following procedure.
 
 It is recommended to use a clean virtual environment for configuration. Navigate to the STDATALOG-PYSDK root directory, open a 
@@ -182,16 +182,16 @@ python3 gui_applications/stdatalog/GUI/stdatalog_GUI.py
 ## Development Toolchains and Compilers
 
 - Compatible with Windows, Linux and macOS machines
-- Python 3.13, 3.12, 3.11
+- Python 3.14, 3.13, 3.12 and 3.11
 
 ## Supported Devices and Boards
 
-All devices and boards supported by FP-SNS-DATALOG1, [FP-SNS-DATALOG2](https://github.com/STMicroelectronics/fp-sns-datalog2), [FP-IND-DATALOGMC](https://github.com/STMicroelectronics/fp-ind-datalogmc) and [STSW-SDATALOG](https://www.st.com/en/embedded-software/stsw-sdatalog.html):
+All devices and boards supported by [FP-SNS-DATALOG2](https://github.com/STMicroelectronics/fp-sns-datalog2), [FP-IND-DATALOGMC](https://github.com/STMicroelectronics/fp-ind-datalogmc) and [STSW-SDATALOG](https://www.st.com/en/embedded-software/stsw-sdatalog.html):
 
 - [B-U585I-IOT02A](https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html)
 - [STEVAL-AFCI1](https://www.st.com/en/evaluation-tools/steval-afci1.html)
 - [STEVAL-MKBOXPRO](https://www.st.com/sensortileboxpro)
-- [STEVAL-NBIOTV1](https://www.st.com/en/evaluation-tools/steval-nbiotv1.html)
+- [STEVAL-PROTEUS1](https://www.st.com/en/evaluation-tools/steval-proteus1.html)
 - [STEVAL-STWINKT1B](https://www.st.com/stwin)
 
 - [STEVAL-STWINBX1](https://www.st.com/stwinbox)
@@ -202,15 +202,19 @@ All devices and boards supported by FP-SNS-DATALOG1, [FP-SNS-DATALOG2](https://g
 - [EVLSPIN32G4-ACT](https://www.st.com/en/evaluation-tools/evlspin32g4-act.html)
 
 - [NUCLEO-F401RE](https://www.st.com/en/evaluation-tools/nucleo-f401re.html)
+- [NUCLEO-G0B1RE](https://www.st.com/en/evaluation-tools/nucleo-g0b1re.html)
+- [NUCLEO-H503RB](https://www.st.com/en/evaluation-tools/nucleo-h503rb.html)
 - [NUCLEO-H563ZI](https://www.st.com/en/evaluation-tools/nucleo-h563zi.html)
 - [NUCLEO-H7A3ZI-Q](https://www.st.com/en/evaluation-tools/nucleo-h7a3zi-q.html)
 - [NUCLEO-L476RG](https://www.st.com/en/evaluation-tools/nucleo-l476rg.html)
+- [NUCLEO-U385RG-Q](https://www.st.com/en/evaluation-tools/nucleo-u385rg-q.html)
 - [NUCLEO-U545RE-Q](https://www.st.com/en/evaluation-tools/nucleo-u545re-q.html)
 - [NUCLEO-U575ZI-Q](https://www.st.com/en/evaluation-tools/nucleo-u575zi-q.html)
 
 - [X-NUCLEO-IKS02A1](https://www.st.com/en/ecosystems/x-nucleo-iks02a1.html)
 - [X-NUCLEO-IKS4A1](https://www.st.com/en/evaluation-tools/x-nucleo-iks4a1.html)
 - [X-NUCLEO-IKS5A1](https://www.st.com/en/evaluation-tools/x-nucleo-iks5a1.html)
+- [X-NUCLEO-53L9A1](https://www.st.com/en/evaluation-tools/x-nucleo-53l9a1.html)
 
 
 ## Backward Compatibility
