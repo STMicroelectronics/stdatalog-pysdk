@@ -24,7 +24,7 @@ actuators.
 
 This software development kit is designed with an open and modular architecture,
 making it an excellent resource for data scientists and embedded designers.
-**STDATALOG-PYSDK** has been developed in **Python 3.13**, but it is compatible also with Python 3.14, 3.12 and 3.11.
+**STDATALOG-PYSDK** has been developed in **Python 3.13**, but it is compatible also with Python 3.14, and 3.12.
 
 It provides a range of tools and utilities designed to simplify the development of
 applications that use data from ST system solutions.
